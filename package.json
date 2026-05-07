@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node .next/standalone/server.js",
     "start:prod": "npm run build && npm run start",
     "postinstall": "prisma generate",
     "prisma:generate": "prisma generate",
